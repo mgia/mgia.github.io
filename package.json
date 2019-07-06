@@ -1,0 +1,19 @@
+{
+  "name": "marc-portfolio-website",
+  "version": "1.0.0",
+  "description": "Personal Porfolio Website for Marc G Tan",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgia/portfolio.git"
+  },
+  "author": "Marc G Tan <findmarcg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgia/portfolio/issues"
+  },
+  "homepage": "https://github.com/mgia/portfolio#readme"
+}
