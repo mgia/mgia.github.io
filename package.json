@@ -4,7 +4,8 @@
   "description": "Personal Porfolio Website for Marc G Tan",
   "main": "index.html",
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "scss": "node-sass src -o src --watch --output-style compressed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/mgia/portfolio/issues"
   },
-  "homepage": "https://github.com/mgia/portfolio#readme"
+  "homepage": "https://github.com/mgia/portfolio#readme",
+  "dependencies": {}
 }

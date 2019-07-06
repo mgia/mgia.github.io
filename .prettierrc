@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": "*",
+      "options": {
+        "prettier.printWidth": 120
+      }
+    }
+  ]
+}

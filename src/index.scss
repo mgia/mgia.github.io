@@ -1,0 +1,48 @@
+$color-black: #17252a;
+$color-dark: #2b7a78;
+$color-green: #3aafa9;
+$color-light: #def2f1;
+$color-white: #feffff;
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 500%;
+    overflow: hidden;
+  }
+  h2 {
+    font-size: 200%;
+  }
+}
+
+a {
+  color: $color-dark;
+  &:hover,
+  &:visited,
+  &:focus,
+  &:active {
+    color: $color-dark;
+    text-decoration: none;
+  }
+}
+.links {
+  #git {
+    color: #333;
+  }
+  #lki {
+    color: #0077b5;
+  }
+  #resume {
+    color: $color-black;
+  }
+}
+
+.footer {
+  img {
+    width: 15%;
+  }
+}
