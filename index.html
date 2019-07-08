@@ -19,7 +19,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="/src/index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-143343838-1"
@@ -60,7 +59,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="jumbotron">
       <div class="container header">
-        <h1 id="hellohello"></h1>
+        <h1>Marc G Tan</h1>
         <h2>Product Engineer ; <br />where business meets tech</h2>
       </div>
     </div>
@@ -132,15 +131,5 @@
         <div class="copy">&copy; 2019 Marc G Tan</div>
       </div>
     </div>
-    <script>
-      console.log("hello world");
-      $(document).ready(() => {
-        $.getJSON("https://jsonplaceholder.typicode.com/todos/1", data => {
-          console.log(data);
-          const title = document.querySelector("#hellohello");
-          title.innerHTML = data.id;
-        });
-      });
-    </script>
   </body>
 </html>
