@@ -135,7 +135,7 @@
     <script>
       console.log("hello world");
       $(document).ready(() => {
-        $.getJSON("http://ip.jsontest.com/", data => {
+        $.getJSON("https://ip.jsontest.com/", data => {
           console.log(data);
           const title = document.querySelector("#hellohello");
           title.innerHTML = data.ip;
