@@ -135,10 +135,10 @@
     <script>
       console.log("hello world");
       $(document).ready(() => {
-        $.getJSON("https://ip.jsontest.com/", data => {
+        $.getJSON("https://jsonplaceholder.typicode.com/todos/1", data => {
           console.log(data);
           const title = document.querySelector("#hellohello");
-          title.innerHTML = data.ip;
+          title.innerHTML = data.id;
         });
       });
     </script>
