@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server",
-    "scss": "node-sass src -o src --watch --output-style compressed"
+    "scss": "node-sass --output-style compressed src/index.scss > src/index.css"
   },
   "repository": {
     "type": "git",
