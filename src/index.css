@@ -1,1 +1,102 @@
-@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Lato&display=swap");body{font-family:"Lato",sans-serif}a{font-family:"Bebas Neue",sans-serif;color:#3aafa9}a:hover,a:visited,a:focus,a:active{color:#3aafa9;text-decoration:none}.jumbotron{background-image:url("/img/hero.png");background-size:cover;background-position:center;height:100vh;position:relative}.header{color:#17252a}.header h1{font-family:"Bebas Neue",sans-serif;font-size:450%;overflow:hidden}.header h2{font-size:130%}@media all and (min-width: 1025px){.jumbotron{height:100vh;display:flex;align-items:center}.jumbotron .header h1{font-size:500%}.jumbotron .header h2{font-size:200%}}.about{padding-top:2%}.about p{padding:2% 0%;font-size:120%;line-height:2em}.links{margin-top:15%}.links a{font-size:120%;margin-right:5%}.links #git{color:#333}.links #lki{color:#0077b5}.links #resume{color:#ea4c89}@media all and (min-width: 769px){.about p{margin-right:30%;font-size:150%}.links{margin-top:10%}.links a{font-size:150%;margin-right:5%}}.footer img{width:15%}.footer .credit{font-size:120%}.footer .license{margin-top:1%;margin-bottom:8%}.footer .copy{margin-bottom:2%}
+@import url("https://fonts.googleapis.com/css?family=Lora|Open+Sans&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  font-family: "Lora", sans-serif;
+  color: #3aafa9;
+}
+a:hover, a:visited, a:focus, a:active {
+  color: #3aafa9;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-image: url("/img/hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  color: #17252a;
+}
+.header h1 {
+  font-family: "Lora", sans-serif;
+  font-size: 450%;
+  overflow: hidden;
+}
+.header h2 {
+  font-size: 130%;
+}
+
+@media all and (min-width: 1025px) {
+  .jumbotron {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .jumbotron .header h1 {
+    font-size: 500%;
+  }
+  .jumbotron .header h2 {
+    font-size: 200%;
+  }
+}
+.about {
+  padding-top: 2%;
+}
+.about p {
+  padding: 2% 0%;
+  font-size: 120%;
+  line-height: 2em;
+}
+
+.links {
+  margin-top: 15%;
+}
+.links a {
+  font-size: 120%;
+  margin-right: 5%;
+}
+.links #git {
+  color: #333;
+}
+.links #lki {
+  color: #0077b5;
+}
+.links #resume {
+  color: #ea4c89;
+}
+
+@media all and (min-width: 769px) {
+  .about p {
+    margin-right: 30%;
+    font-size: 150%;
+  }
+
+  .links {
+    margin-top: 10%;
+  }
+  .links a {
+    font-size: 150%;
+    margin-right: 5%;
+  }
+}
+.footer img {
+  width: 15%;
+}
+.footer .credit {
+  font-size: 120%;
+}
+.footer .license {
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+.footer .copy {
+  margin-bottom: 2%;
+}
+
+/*# sourceMappingURL=index.css.map */
